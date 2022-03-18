@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&display=swap');
+
+:root{
+    --background: linear-gradient(135deg, #667EEA7E 0%, #764ba298 100%);
+    --color-primary: #667EEA;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subtitle{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.vaccine__paragraph{
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: var(--background), url('../assets/imagen6.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.hero .container{
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+}
+.nav__items--footer{
+    padding: 10px;
+} 
+
+.hero__container{
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    color: #fff;
+}
+.hero__text{
+    width: 80%;
+    margin-bottom: 50px;
+}
+.hero__title{
+    font-size: 3.2rem;
+}
+
+.hero__sub{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 15px 0;
+}
+.hero__cta{
+    display: inline-block;
+    background: #fff;
+    padding: var(--boton-padding);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 40px;
+    
+}
+.hero__wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.logos{
+    padding-top: 0;
+    text-align: center;
+}
+.logos__pictures {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.about-service{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicio-ind{
+    width: 20%;
+    text-align: center;
+}
+.servicio-ind img{
+    width: 70%;
+
+}
+.servicio-h3{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.servicio-p{
+    font-weight: 5;
+    text-align: justify;
+}
+.servicio-p1{
+    text-align: center;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.preparations_picture{
+    width: 380px;
+    height: 250px;
+}
+.preparations .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos{
+    margin-bottom: 0px;
+}
+.contenido-textos h3 span{
+    margin-top: 30px;
+    background: #667EEA;
+    color:#fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+}
+
+.hero__cta1{
+    display: inline-block;
+    background: rgb(169, 188, 240);
+    padding: var(--boton-padding);
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: 40px;
+    
+}
+.footer{
+    background: var(--color-primary);
+}
+
+.footer__grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+.footer__title{
+    font-weight: 400;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer__icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__container-icons{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 1px;
+    border-radius: 50%;
+
+}
+
+.footer__icon{
+    color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.fa-brands .footer__icon{
+    line-height: 60px;
+}
